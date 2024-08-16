@@ -21,7 +21,7 @@ function updateValues() {
     setTimeout(updateValues, 2000);
 }
 
-// updateValues();
+updateValues();
 
 function changeImage() {
     if (a == 1) {
@@ -35,4 +35,4 @@ function changeImage() {
     }
 }
 
-// setInterval(changeImage, 2000);
+setInterval(changeImage, 2000);
