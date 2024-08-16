@@ -1,0 +1,276 @@
+:root {
+    --nav-bg: #ffdb60;
+    --body-bg: #fffdf0;
+    --text-color: #001740;
+    --btn-bg: #0f2a71;
+}
+
+* {
+    outline: rgb(244, 29, 40) solid 1px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: var(--body-bg);
+    /* font-family: sarabun; */
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+nav {
+    height: 11vh;
+    background-color: var(--nav-bg);
+    width: 100%;
+    display: flex;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+
+a {
+    text-decoration: none;
+    color: var(--text-color);
+
+}
+
+nav .nav-left a {
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+.logo {
+    font-weight: 600;
+    color: var(--text-color);
+    font-family: "Playwrite DE Grund", cursive;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.nav-left {
+    width: 45%;
+    display: flex;
+    align-items: center;
+    margin-left: 25px;
+    font-size: 24px;
+}
+
+.nav-right {
+    width: 55%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+li {
+    margin: 0 50px;
+    margin-top: 6px;
+    font-weight: 600;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+li:hover {
+    text-decoration: underline;
+}
+
+i {
+    font-size: 20px;
+    color: var(--text-color);
+    cursor: pointer;
+}
+
+.hero {
+    display: flex;
+    width: 100%;
+}
+
+.hero-left,
+.hero-right {
+    width: 50%;
+}
+
+.hero .hero-left p {
+    margin: 10px;
+    padding: 0px;
+    color: var(--text-color);
+}
+
+.hero-img {
+    padding-top: 70px;
+    padding-left: 150px;
+}
+
+.hero-left-sub {
+    width: 70%;
+    padding-top: 100px;
+    padding-left: 20px;
+}
+
+.hero-text-1 {
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.hero-text-2 {
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.hero-text-3 {
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.shop-button {
+    cursor: pointer;
+    background-color: var(--btn-bg);
+    border: none;
+    width: 100px;
+    height: 35px;
+    color: var(--body-bg);
+    font-size: 15px;
+    border: 1px solid rgb(31, 30, 30);
+    border-radius: 70px;
+}
+
+.parent-cate {
+    margin-top: 15px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.parent-category {
+    width: 85%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.category {
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+    border-radius: 18px;
+    width: 15%;
+    height: 95px;
+    display: flex;
+}
+
+.category-icons {
+    width: 75%;
+}
+
+.cate-left {
+    width: 43%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cate-right {
+    width: 57%;
+    height: 100%;
+}
+
+.cate-right-span-1 {
+    margin-top: 25px;
+    padding-left: 10px;
+}
+
+.cate-right-span-2 {
+    text-decoration: underline;
+    padding-left: 10px;
+    font-size: 15.5px;
+}
+
+.gallery-parent {
+    margin-top: 40px;
+    /* border: 1px solid red; */
+    width: 100%;
+    /* height: 200px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gallery img {
+    /* border: 1px solid cyan; */
+    margin: 0 10px 0 10px;
+    border-radius: 5px;
+}
+
+.gallery {
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-around;
+    /* width: 85%; */
+    /* height: 200px; */
+}
+
+
+
+@media screen and (max-width:480px) {
+
+    body {
+        width: 100vw;
+    }
+
+    nav {
+        height: 8vh;
+    }
+
+    ul {
+        display: none;
+    }
+
+    .hero {
+        display: block;
+    }
+
+    .hero-left,
+    .hero-right {
+        width: 100%;
+    }
+
+    .hero-right {
+        display: none;
+    }
+
+    .hero-text-1 {
+        font-weight: 700;
+        font-size: 33px;
+    }
+
+    .hero-text-2 {
+        font-weight: 500;
+        font-size: 20px;
+    }
+
+    .hero-text-3 {
+        font-weight: 500;
+        font-size: 18px;
+    }
+
+    .hero-img {
+        width: 50%;
+        padding-top: 40px;
+        padding-left: 100px;
+    }
+
+    .parent-category {}
+
+    .gallery-parent {
+        width: 100vw;
+    }
+
+    .gallery {
+        display: block;
+    }
+}
