@@ -74,6 +74,7 @@
 
     .category {
         width: 80%;
+        margin-top: 15px;
     }
 
     .category-icons {
@@ -81,12 +82,10 @@
     }
 
     .cate-left {
-        border: 1px solid red;
         width: 35%;
     }
 
     .cate-right {
-        border: 1px solid red;
         width: 85%;
     }
 
