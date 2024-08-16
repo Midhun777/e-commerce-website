@@ -107,6 +107,14 @@
     }
 
     .gallery {
-        display: block;
+        /* display: block; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .image-1,
+    .image-2 {
+        width: 40%;
     }
 }
