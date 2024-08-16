@@ -9,7 +9,9 @@
     /* outline: rgb(244, 29, 40) solid 1px; */
     
 }
-
+html{
+    scroll-behavior: smooth;
+}
 body {
     margin: 0px;
     padding: 0px;
@@ -108,6 +110,7 @@ i {
 }
 
 .hero-left-sub {
+    /* border: 1px solid red; */
     width: 70%;
     padding-top: 290px;
     padding-left: 180px;
@@ -166,7 +169,7 @@ i {
 }
 
 .category-icons {
-    width: 75%;
+    width: 65%;
 }
 
 .cate-left {

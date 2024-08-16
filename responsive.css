@@ -55,12 +55,51 @@
         width: 50%;
         padding-top: 40px;
         padding-left: 100px;
+        font-weight: 500;
+    }
+
+    .shop-button {
+        width: 100px;
+        height: 40px;
+        font-size: 14px;
+    }
+
+    .parent-cate {
+        margin-top: 60px;
     }
 
     .parent-category {
-        width: 100vw;
-        display: flex;
         width: 100%;
+    }
+
+    .category {
+        width: 80%;
+    }
+
+    .category-icons {
+        width: 60%;
+    }
+
+    .cate-left {
+        border: 1px solid red;
+        width: 35%;
+    }
+
+    .cate-right {
+        border: 1px solid red;
+        width: 85%;
+    }
+
+    .cate-right-span-1 {
+        margin-top: 25px;
+        padding-left: 20px;
+        font-size: 19px;
+    }
+
+    .cate-right-span-2 {
+        text-decoration: underline;
+        padding-left: 20px;
+        font-size: 18px;
     }
 
     .gallery-parent {
