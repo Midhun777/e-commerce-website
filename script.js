@@ -6,7 +6,7 @@ let a = numbers[0];
 let b = numbers[1];
 let isInitial = true;
 
-console.log("Initial values:", a, b);
+// console.log("Initial values:", a, b);
 
 function updateValues() {
     if (isInitial) {
@@ -16,7 +16,7 @@ function updateValues() {
         [a, b] = numbers.slice(0, 2);
         isInitial = true;
     }
-    console.log("Updated values:", a, b);
+    // console.log("Updated values:", a, b);
 
     setTimeout(updateValues, 2000);
 }

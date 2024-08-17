@@ -215,3 +215,52 @@ i {
     display: flex;
     justify-content: space-around;
 }
+
+.men-parent {
+    margin-top: 24px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.men-div {
+    width: 80%;
+
+}
+
+.men-top {
+
+    color: var(--text-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+}
+
+.men-bottom {
+    color: var(--text-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.men-card {
+    color: var(--text-color);
+    width: 240px;
+    border: 1px solid red;
+
+}
+
+.men-card-top {
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.men-img {
+    border: 1px solid red;
+    width: 55%;
+}
