@@ -7,11 +7,13 @@
 
 * {
     /* outline: rgb(244, 29, 40) solid 1px; */
-    
+
 }
-html{
+
+html {
     scroll-behavior: smooth;
 }
+
 body {
     margin: 0px;
     padding: 0px;
@@ -213,6 +215,3 @@ i {
     display: flex;
     justify-content: space-around;
 }
-
-
-
