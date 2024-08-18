@@ -21,7 +21,7 @@ function updateValues() {
     setTimeout(updateValues, 2000);
 }
 
-updateValues();
+// updateValues();
 
 function changeImage() {
     if (a == 1) {
@@ -36,3 +36,24 @@ function changeImage() {
 }
 
 setInterval(changeImage, 2000);
+
+
+const mensCollectionContainer = document.getElementById('mens-collection-container');
+
+mensCollection.forEach(product => {
+    const cardHtml = `
+    <div class="men-card">
+      <div class="men-card-top">
+        <img src="${product.src}" alt="${product.title}" class="men-img">
+      </div>
+      <div class="men-card-bottom">
+        <p class="men-dec">${product.title}</p>
+        <p class="men-price">
+          ${product.price}
+          <span class="price-strike">${product.oldPrice}</span>
+        </p>
+      </div>
+    </div>
+  `;
+    mensCollectionContainer.innerHTML += cardHtml;
+});
