@@ -1,3 +1,9 @@
+const parentCategoryDiv = document.getElementById("parent-category");
+
+const categoryDiv = document.createElement("div");
+categoryDiv.classList.add("category");
+parentCategoryDiv.appendChild(categoryDiv);
+
 const image1 = document.getElementById("image-1");
 const image2 = document.getElementById("image-2");
 
@@ -57,10 +63,4 @@ mensCollection.forEach(product => {
   `;
   mensCollectionContainer.innerHTML += cardHtml;
 });
-
-const parentCategoryDiv = document.getElementById("parent-category");
-
-const categoryDiv = document.createElement("div");
-categoryDiv.classList.add("category");
-parentCategoryDiv.appendChild(categoryDiv);
 
