@@ -6,26 +6,26 @@ const categoryItems = [
     }
     ,
     {
-        src: "assets/icons/shirt.png",
-        title: "Shirts",
+        src: "assets/icons/iphone.png",
+        title: "Watches",
         common: "show more"
     }
     ,
     {
-        src: "assets/icons/shirt.png",
-        title: "Shirts",
+        src: "assets/icons/party.png",
+        title: "Phones",
         common: "show more"
     }
     ,
     {
-        src: "assets/icons/shirt.png",
-        title: "Shirts",
+        src: "assets/icons/sneakers.png",
+        title: "Shoes",
         common: "show more"
     }
     ,
     {
-        src: "assets/icons/shirt.png",
-        title: "Shirts",
+        src: "assets/icons/wrist-watch.png",
+        title: "Frocks",
         common: "show more"
     }
     ,
@@ -69,3 +69,4 @@ const mensCollection = [
 
     }
 ]
+

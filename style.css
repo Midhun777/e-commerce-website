@@ -163,6 +163,8 @@ i {
 }
 
 .category {
+    border: 1px solid red;
+
     box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
     border-radius: 18px;
     width: 250px;
@@ -171,10 +173,14 @@ i {
 }
 
 .category-icons {
+    border: 1px solid red;
+
     width: 65%;
 }
 
 .cate-left {
+    border: 1px solid red;
+
     width: 43%;
     height: 100%;
     display: flex;
@@ -183,16 +189,22 @@ i {
 }
 
 .cate-right {
+    border: 1px solid red;
+
     width: 57%;
     height: 100%;
 }
 
 .cate-right-span-1 {
+    border: 1px solid red;
+
     margin-top: 25px;
     padding-left: 10px;
 }
 
 .cate-right-span-2 {
+    border: 1px solid red;
+
     text-decoration: underline;
     padding-left: 10px;
     font-size: 15.5px;
@@ -266,7 +278,6 @@ i {
 }
 
 .men-img {
-    /* border: 1px solid red; */
     width: 195px;
 }
 
