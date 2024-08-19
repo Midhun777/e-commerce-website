@@ -31,6 +31,26 @@
 
 // document.body.appendChild(nav);
 
+
+const heroDiv = document.getElementById('hero');
+
+const newContent = `
+    <div class="hero-left">
+        <div class="hero-left-sub">
+            <p class="hero-text-1">Trade in offer</p>
+            <p class="hero-text-2 hero-text">Exclusive deals on your favourite brands</p>
+            <p class="hero-text-3 hero-text">Grab It!</p>
+            <button class="shop-button">shop now</button>
+        </div>
+    </div>
+
+    <div class="hero-right">
+        <img src="assets/mains/bg.png" alt="model-1" width="65%" class="hero-img">
+    </div>
+`;
+
+heroDiv.innerHTML = newContent;
+
 categoryItems.forEach(categoryObj => {
 
   const parentCategoryDiv = document.getElementById("parent-category");
