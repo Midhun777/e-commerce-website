@@ -211,6 +211,9 @@ i {
     justify-content: space-around;
 }
 
+.image-1,.image-2{
+    width: 80%;
+}
 .men-parent {
     margin-top: 24px;
     width: 100%;

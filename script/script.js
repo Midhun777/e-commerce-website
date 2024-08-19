@@ -15,11 +15,11 @@
 // links.forEach(linkText => {
 //     const a = document.createElement('a');
 //     a.href = '#';
-    
+
 //     const li = document.createElement('li');
 //     li.className = 'list-items';
 //     li.textContent = linkText;
-    
+
 //     a.appendChild(li);
 //     ul.appendChild(a);
 // });
@@ -62,7 +62,7 @@ categoryItems.forEach(categoryObj => {
   categoryRightDiv.appendChild(categoryTextCommon);
   categoryTextCommon.href = "#";
   categoryTextCommon.innerHTML = "show more";
-  
+
 });
 
 const image1 = document.getElementById("image-1");
@@ -89,6 +89,8 @@ function updateValues() {
 }
 
 // updateValues();
+image1.src = "assets/image-gallery/1.jpg";
+image2.src = "assets/image-gallery/2.jpg";
 
 function changeImage() {
   if (a == 1) {
