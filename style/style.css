@@ -225,12 +225,17 @@ i {
 }
 
 .men-top {
-
     color: var(--text-color);
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 30px;
+    height: 60px;
+}
+
+.men-heading {
+    font-size: 23px;
+    font-weight: 600;
+    text-decoration: underline;
 }
 
 .men-bottom {
@@ -240,7 +245,7 @@ i {
     /* align-items: center; */
     /* width: 100%; */
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
     justify-content: center;
 }
 
@@ -249,8 +254,8 @@ i {
     color: var(--text-color);
     width: 196px;
     box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px, rgb(209, 213, 219) 0px 0px 0px 1px inset;
-    /* border: 1px solid red; */
     border-radius: 7px;
+    margin-bottom: 18px;
 }
 
 .men-card-top {

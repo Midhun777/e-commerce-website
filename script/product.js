@@ -8,13 +8,13 @@ const categoryItems = [
     }
     ,
     {
-        src: "assets/icons/iphone.png",
+        src: "assets/icons/wrist-watch.png",
         title: "Watches",
         common: "show more"
     }
     ,
     {
-        src: "assets/icons/party.png",
+        src: "assets/icons/iphone.png",
         title: "Phones",
         common: "show more"
     }
@@ -26,7 +26,7 @@ const categoryItems = [
     }
     ,
     {
-        src: "assets/icons/wrist-watch.png",
+        src: "assets/icons/party.png",
         title: "Frocks",
         common: "show more"
     }
@@ -65,6 +65,30 @@ const mensCollection = [
     ,
     {
         src: "assets/mens/product_17.png",
+        title: "Regular Fit Hoddie Men",
+        price: "$77",
+        oldPrice: "$100 "
+
+    }
+    ,
+    {
+        src: "assets/mens/product_19.png",
+        title: "Regular Fit Hoddie Men",
+        price: "$77",
+        oldPrice: "$100 "
+
+    }
+    ,
+    {
+        src: "assets/mens/product_20.png",
+        title: "Regular Fit Hoddie Men",
+        price: "$77",
+        oldPrice: "$100 "
+
+    }
+    ,
+    {
+        src: "assets/mens/product_21.png",
         title: "Regular Fit Hoddie Men",
         price: "$77",
         oldPrice: "$100 "
