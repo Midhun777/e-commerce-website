@@ -5,11 +5,6 @@
     --btn-bg: #0f2a71;
 }
 
-* {
-    /* outline: rgb(244, 29, 40) solid 1px; */
-
-}
-
 html {
     scroll-behavior: smooth;
 }
