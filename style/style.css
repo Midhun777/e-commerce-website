@@ -216,7 +216,7 @@ i {
     width: 80%;
 }
 
-.men-parent,.new-parent {
+.men-parent,.new-parent,.women-parent {
     margin-top: 24px;
     width: 100%;
     display: flex;
@@ -224,12 +224,12 @@ i {
     align-items: center;
 }
 
-.men-div,.new-div {
+.men-div,.new-div,.women-div {
     width: 80%;
 
 }
 
-.men-top,.new-top {
+.men-top,.new-top,.women-top {
     color: var(--text-color);
     display: flex;
     justify-content: center;
@@ -243,7 +243,7 @@ i {
     text-decoration: underline;
 }
 
-.men-bottom,.new-bottom {
+.men-bottom,.new-bottom,.women-bottom {
     color: var(--text-color);
     /* display: flex; */
     /* justify-content: space-between; */
@@ -254,7 +254,7 @@ i {
     justify-content: center;
 }
 
-.men-card,.new-card {
+.men-card,.new-card,.women-card {
     background: #f1f1f1;
     color: var(--text-color);
     width: 196px;
@@ -263,22 +263,22 @@ i {
     margin-bottom: 18px;
 }
 
-.men-card-top,.new-card-top {
+.men-card-top,.new-card-top,.women-card-top {
     /* border: 1px solid red; */
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.men-img,.new-img {
+.men-img,.new-img,.women-img {
     width: 195px;
 }
 
-.men-dec,.new-dec {
+.men-dec,.new-dec,.women-dec {
     padding-left: 7px;
 }
 
-.men-price,.new-price {
+.men-price,.new-price,.women-price {
     padding-left: 14px;
     font-weight: 500;
 }

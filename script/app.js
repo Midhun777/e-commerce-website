@@ -164,3 +164,24 @@ newCollections.forEach(newItem => {
   `;
   newCollectionContainer.innerHTML += newCardHtml;
 });
+
+
+const womenCollectionContainer = document.getElementById('women-collection-container');
+
+womensCollections.forEach(womenItem => {
+  const womenCardHtml = `
+    <div class="women-card">
+      <div class="women-card-top">
+        <img src="${womenItem.src}" alt="${womenItem.title}" class="women-img">
+      </div>
+      <div class="women-card-bottom">
+        <p class="women-dec">${womenItem.title}</p>
+        <p class="women-price">
+          ${womenItem.price}
+          <span class="price-strike">${womenItem.oldPrice}</span>
+        </p>
+      </div>
+    </div>
+  `;
+  womenCollectionContainer.innerHTML += womenCardHtml;
+});
