@@ -1,3 +1,5 @@
+const links = ['Home', 'Contact', 'Blog', 'About'];
+
 const categoryItems = [
     {
         src: "assets/icons/shirt.png",
