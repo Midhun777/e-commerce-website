@@ -31,7 +31,6 @@
 
 // document.body.appendChild(nav);
 
-
 const heroDiv = document.getElementById('hero');
 
 const newContent = `
@@ -126,7 +125,6 @@ function changeImage() {
 
 // setInterval(changeImage, 2000);
 
-
 const mensCollectionContainer = document.getElementById('mens-collection-container');
 
 mensCollection.forEach(product => {
@@ -147,10 +145,6 @@ mensCollection.forEach(product => {
   mensCollectionContainer.innerHTML += cardHtml;
 });
 
-
-
-
-
 const newCollectionContainer = document.getElementById('new-collection-container');
 
 newCollections.forEach(newItem => {
@@ -170,5 +164,3 @@ newCollections.forEach(newItem => {
   `;
   newCollectionContainer.innerHTML += newCardHtml;
 });
-
-
