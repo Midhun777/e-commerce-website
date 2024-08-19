@@ -211,10 +211,12 @@ i {
     justify-content: space-around;
 }
 
-.image-1,.image-2{
+.image-1,
+.image-2 {
     width: 80%;
 }
-.men-parent {
+
+.men-parent,.new-parent {
     margin-top: 24px;
     width: 100%;
     display: flex;
@@ -222,12 +224,12 @@ i {
     align-items: center;
 }
 
-.men-div {
+.men-div,.new-div {
     width: 80%;
 
 }
 
-.men-top {
+.men-top,.new-top {
     color: var(--text-color);
     display: flex;
     justify-content: center;
@@ -235,13 +237,13 @@ i {
     height: 60px;
 }
 
-.men-heading {
+.heading {
     font-size: 23px;
     font-weight: 600;
     text-decoration: underline;
 }
 
-.men-bottom {
+.men-bottom,.new-bottom {
     color: var(--text-color);
     /* display: flex; */
     /* justify-content: space-between; */
@@ -252,7 +254,7 @@ i {
     justify-content: center;
 }
 
-.men-card {
+.men-card,.new-card {
     background: #f1f1f1;
     color: var(--text-color);
     width: 196px;
@@ -261,22 +263,22 @@ i {
     margin-bottom: 18px;
 }
 
-.men-card-top {
+.men-card-top,.new-card-top {
     /* border: 1px solid red; */
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.men-img {
+.men-img,.new-img {
     width: 195px;
 }
 
-.men-dec {
+.men-dec,.new-dec {
     padding-left: 7px;
 }
 
-.men-price {
+.men-price,.new-price {
     padding-left: 14px;
     font-weight: 500;
 }
@@ -286,4 +288,16 @@ i {
     font-size: 14.5px;
     text-decoration: line-through;
     padding-left: 4.3px;
+}
+
+.banner-div {
+    margin: 15px 0;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.banner-1 {
+    border-radius: 6px;
+    width: 70%;
 }

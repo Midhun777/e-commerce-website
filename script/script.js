@@ -104,7 +104,7 @@ function changeImage() {
   }
 }
 
-setInterval(changeImage, 2000);
+// setInterval(changeImage, 2000);
 
 
 const mensCollectionContainer = document.getElementById('mens-collection-container');
@@ -126,4 +126,29 @@ mensCollection.forEach(product => {
   `;
   mensCollectionContainer.innerHTML += cardHtml;
 });
+
+
+
+
+
+const newCollectionContainer = document.getElementById('new-collection-container');
+
+newCollections.forEach(newItem => {
+  const newCardHtml = `
+    <div class="new-card">
+      <div class="new-card-top">
+        <img src="${newItem.src}" alt="${newItem.title}" class="new-img">
+      </div>
+      <div class="new-card-bottom">
+        <p class="new-dec">${newItem.title}</p>
+        <p class="new-price">
+          ${newItem.price}
+          <span class="price-strike">${newItem.oldPrice}</span>
+        </p>
+      </div>
+    </div>
+  `;
+  newCollectionContainer.innerHTML += newCardHtml;
+});
+
 

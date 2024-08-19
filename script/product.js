@@ -94,5 +94,102 @@ const mensCollection = [
         oldPrice: "$100 "
 
     }
+    ,
+    {
+        src: "assets/mens/product_22.png",
+        title: "Regular Fit Hoddie Men",
+        price: "$77",
+        oldPrice: "$100 "
+
+    }
+    ,
+    {
+        src: "assets/mens/product_23.png",
+        title: "Regular Fit Hoddie Men",
+        price: "$77",
+        oldPrice: "$100 "
+
+    }
 ]
 
+const newCollections = [
+    {
+        src: "assets/kids/product_25.png",
+        title: "Kids Hoddie Regular",
+        price: "$79",
+        oldPrice: "$100"
+
+    }
+    ,
+    {
+        src: "assets/kids/product_26.png",
+        title: "Kids Hoddie Regular",
+        price: "$79",
+        oldPrice: "$100"
+
+    }
+    ,
+    {
+        src: "assets/kids/product_27.png",
+        title: "Kids Hoddie Regular",
+        price: "$79",
+        oldPrice: "$100"
+
+    }
+    ,
+    {
+        src: "assets/kids/product_28.png",
+        title: "Kids Hoddie Regular",
+        price: "$79",
+        oldPrice: "$100"
+
+    }
+    ,
+    {
+        src: "assets/kids/product_29.png",
+        title: "Kids Hoddie Regular",
+        price: "$79",
+        oldPrice: "$100"
+
+    }
+    ,
+    {
+        src: "assets/kids/product_30.png",
+        title: "Kids Hoddie Regular",
+        price: "$79",
+        oldPrice: "$100"
+
+    }
+    ,
+    {
+        src: "assets/kids/product_31.png",
+        title: "Kids Hoddie Regular",
+        price: "$79",
+        oldPrice: "$100"
+
+    }
+    ,
+    {
+        src: "assets/kids/product_32.png",
+        title: "Kids Hoddie Regular",
+        price: "$79",
+        oldPrice: "$100"
+
+    }
+    ,
+    {
+        src: "assets/kids/product_33.png",
+        title: "Kids Hoddie Regular",
+        price: "$79",
+        oldPrice: "$100"
+
+    }
+    ,
+    {
+        src: "assets/kids/product_34.png",
+        title: "Kids Hoddie Regular",
+        price: "$79",
+        oldPrice: "$100"
+
+    }
+]
