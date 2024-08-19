@@ -272,6 +272,8 @@ i {
 
 .men-img,.new-img,.women-img {
     width: 195px;
+    border-radius: 7px;
+
 }
 
 .men-dec,.new-dec,.women-dec {
