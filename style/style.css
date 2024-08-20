@@ -371,16 +371,24 @@ footer {
 
 .footer-right{
     width: 50%;
-    outline: red solid 1px;
+    display: flex;
+  justify-content: flex-start;
 
 }
 
 .footer-sub{
     width: 100%;
-    outline: red solid 1px;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100%;
     width: 33%;
+}
+
+.footer-right-text{
+    margin-top: 120px;
+}
+
+.footer-logo i {
+    font-size: 28px;
 }
