@@ -31,6 +31,13 @@
 
 // document.body.appendChild(nav);
 
+window.addEventListener("load", function() {
+  setTimeout(function() {
+      document.getElementById("loading-screen").style.display = "none";
+      // document.getElementById("content").style.display = "block";
+  }, 200);
+});
+
 const heroDiv = document.getElementById('hero');
 
 const newContent = `
