@@ -18,7 +18,7 @@ body {
 
 }
 
-    /* Loading screen styles */
+/* Loading screen styles */
 #loading-screen {
     position: fixed;
     width: 100%;
@@ -31,8 +31,10 @@ body {
 }
 
 .loader {
-    border:11px solid #f3f3f3; /* Light grey */
-    border-top: 11px solid #3498db; /* Blue */
+    border: 11px solid #f3f3f3;
+    /* Light grey */
+    border-top: 11px solid #3498db;
+    /* Blue */
     border-radius: 50%;
     width: 120px;
     height: 120px;
@@ -40,8 +42,13 @@ body {
 }
 
 @keyframes spin {
-    0% { transform: rotate(0deg); }
-    100% { transform: rotate(360deg); }
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
 }
 
 nav {
@@ -242,20 +249,26 @@ i {
     width: 80%;
 }
 
-.men-parent,.new-parent,.women-parent {
-    margin-top: 24px;
+.men-parent,
+.new-parent,
+.women-parent {
+    margin-top: 44px;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.men-div,.new-div,.women-div {
+.men-div,
+.new-div,
+.women-div {
     width: 80%;
 
 }
 
-.men-top,.new-top,.women-top {
+.men-top,
+.new-top,
+.women-top {
     color: var(--text-color);
     display: flex;
     justify-content: center;
@@ -264,12 +277,15 @@ i {
 }
 
 .heading {
-    font-size: 23px;
+    font-size: 30px;
     font-weight: 600;
     text-decoration: underline;
 }
 
-.men-bottom,.new-bottom,.women-bottom {
+.men-bottom,
+.new-bottom,
+.women-bottom {
+    margin-top: 20px;
     color: var(--text-color);
     /* display: flex; */
     /* justify-content: space-between; */
@@ -280,7 +296,9 @@ i {
     justify-content: center;
 }
 
-.men-card,.new-card,.women-card {
+.men-card,
+.new-card,
+.women-card {
     background: #f1f1f1;
     color: var(--text-color);
     width: 196px;
@@ -289,24 +307,31 @@ i {
     margin-bottom: 18px;
 }
 
-.men-card-top,.new-card-top,.women-card-top {
-    /* border: 1px solid red; */
+.men-card-top,
+.new-card-top,
+.women-card-top {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.men-img,.new-img,.women-img {
+.men-img,
+.new-img,
+.women-img {
     width: 195px;
     border-radius: 7px;
 
 }
 
-.men-dec,.new-dec,.women-dec {
+.men-dec,
+.new-dec,
+.women-dec {
     padding-left: 7px;
 }
 
-.men-price,.new-price,.women-price {
+.men-price,
+.new-price,
+.women-price {
     padding-left: 14px;
     font-weight: 500;
 }
@@ -328,4 +353,34 @@ i {
 .banner-1 {
     border-radius: 6px;
     width: 70%;
+}
+
+footer {
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    background-color: #fce59a;
+    height: 490px;
+    width: 100%;
+}
+
+.footer-left{
+    width: 50%;
+    display: flex;
+}
+
+.footer-right{
+    width: 50%;
+    outline: red solid 1px;
+
+}
+
+.footer-sub{
+    width: 100%;
+    outline: red solid 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 33%;
 }

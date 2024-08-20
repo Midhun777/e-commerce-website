@@ -58,7 +58,7 @@ const newContent = `
 heroDiv.innerHTML = newContent;
 
 categoryItems.forEach(categoryObj => {
-
+  
   const parentCategoryDiv = document.getElementById("parent-category");
 
   const categoryDiv = document.createElement("div");
