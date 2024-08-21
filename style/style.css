@@ -249,6 +249,31 @@ i {
     width: 80%;
 }
 
+.nav-sec {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec-nav-parent {
+    align-items: center;
+    width: 70%;
+    height: 100px;
+    outline: red solid 1px;
+    display: flex;
+
+}
+
+.sec-nav {
+    width: 26%;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     outline: red solid 1px;
+
+}
+
 .men-parent,
 .new-parent,
 .women-parent {
@@ -362,7 +387,7 @@ footer {
     background-color: #fce59a;
     height: 290px;
     width: 100%;
-    
+
 }
 
 
@@ -386,7 +411,7 @@ footer {
 }
 
 .footer-sub-in {
-    /* margin: 150px 0 0 70px; */
+    margin: 10px 0 0 70px;
 }
 
 .footer-right-text {
