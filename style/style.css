@@ -13,8 +13,8 @@ body {
     margin: 0px;
     padding: 0px;
     background-color: var(--body-bg);
-    /* font-family: sarabun; */
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: sarabun;
+    /* font-family: Arial, Helvetica, sans-serif; */
 
 }
 
@@ -360,35 +360,91 @@ footer {
     /* justify-content: center;
     align-items: center; */
     background-color: #fce59a;
-    height: 490px;
+    height: 290px;
     width: 100%;
+    
 }
 
-.footer-left{
+
+
+.footer-left {
     width: 50%;
     display: flex;
 }
 
-.footer-right{
+.footer-right {
     width: 50%;
-    display: flex;
-  justify-content: flex-start;
-
 }
 
-.footer-sub{
+.footer-sub {
     width: 100%;
-    display: flex;
+    /* display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
     height: 100%;
     width: 33%;
 }
 
-.footer-right-text{
+.footer-sub-in {
+    /* margin: 150px 0 0 70px; */
+}
+
+.footer-right-text {
     margin-top: 120px;
 }
 
 .footer-logo i {
-    font-size: 28px;
+    font-size: 32px;
+    margin: 0 10px;
+}
+
+.footer-text {
+    font-size: 1.1em;
+    color: var(--text-color);
+    font-family: sarabun;
+}
+
+.footer-right-sub {
+    margin: 0 0 0 28%;
+}
+
+.footer-right-text {
+    margin: 100px 0 0 0;
+    color: var(--text-color);
+    font-weight: 600;
+    font-size: 1.2em;
+    font-family: sarabun;
+
+
+}
+
+.footer-input-box {
+    height: 50px;
+    width: 300px;
+    border: none;
+    border-radius: 30px;
+    border: 2px solid var(--text-color);
+    padding-left: 30px;
+    font-size: large;
+    font-family: sarabun;
+
+}
+
+.footer-input-box::placeholder {
+    font-size: 16px;
+    color: var(--text-color);
+    font-family: sarabun;
+}
+
+.footer-right-sub button {
+    height: 50px;
+    width: 150px;
+    border: none;
+    border-radius: 30px;
+    border: 2px solid var(--text-color);
+    font-size: 17px;
+    background-color: var(--btn-bg);
+    color: white;
+    font-family: sarabun;
+
 }
