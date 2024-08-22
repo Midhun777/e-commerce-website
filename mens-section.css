@@ -1,0 +1,110 @@
+:root {
+    --nav-bg: #ffdb60;
+    --body-bg: #fffdf0;
+    --text-color: #001740;
+    --btn-bg: #0f2a71;
+}
+
+* {
+    /* outline: red solid 1px; */
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: var(--body-bg);
+    font-family: Arial, Helvetica, sans-serif;
+
+    /* font-family: Arial, Helvetica, sans-serif; */
+}
+
+nav {
+    height: 11vh;
+    background-color: var(--nav-bg);
+    width: 100%;
+    display: flex;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+
+a {
+    text-decoration: none;
+    color: var(--text-color);
+
+}
+
+nav .nav-left a {
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+.logo {
+    font-weight: 600;
+    color: var(--text-color);
+    font-family: "Playwrite DE Grund", cursive;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.nav-left {
+    width: 45%;
+    display: flex;
+    align-items: center;
+    margin-left: 25px;
+    font-size: 24px;
+}
+
+.nav-right {
+    width: 55%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+li {
+    margin: 0 50px;
+    margin-top: 6px;
+    font-weight: 600;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+li:hover {
+    text-decoration: underline;
+}
+
+
+.cont {
+    max-width: 100%;
+    display: flex;
+    outline: red solid 1px;
+
+}
+
+.section-left {
+    width: 20%;
+    outline: red solid 1px;
+    /* height: 200px; */
+
+}
+
+.section-right {
+    width: 80%;
+    outline: red solid 1px;
+    /* height: 200px; */
+    
+}
+
+.card-img{
+    width: 20%;
+}
