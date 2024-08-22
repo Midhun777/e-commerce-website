@@ -117,6 +117,9 @@ const navItemsCont = document.getElementById("nav-items-parent");
 navItemsArr.forEach(navItems => {
   const navCard = `<div class="nav-items" id="nav-items">${navItems.title}</div>`;
   navItemsCont.innerHTML += navCard;
+
+console.log(navItems)
+
 });
 
 const navItemsElem = document.getElementById("nav-items");

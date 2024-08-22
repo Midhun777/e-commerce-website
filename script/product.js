@@ -2,27 +2,27 @@ const links = ['Home', 'Contact', 'Blog', 'About'];
 
 const navItemsArr = [
     {
-        title : "Men",
+        title: "Men",
         href: "#"
     }
     ,
     {
-        title : "Women",
+        title: "Women",
         href: "#"
     }
     ,
     {
-        title : "Kids",
+        title: "Kids",
         href: "#"
     }
     ,
     {
-        title : "Shoes",
+        title: "Shoes",
         href: "#"
     }
     ,
     {
-        title : "Phones",
+        title: "Phones",
         href: "#"
     }
 ]
@@ -289,5 +289,153 @@ const womensCollections = [
         oldPrice: "1590"
     }
 
+]
 
+const mensPageCollection = [
+    {
+        src: "assets/mens/product_13.png",
+        title: "Regular Fit Hoddie Men",
+        price: "₹899",
+        oldPrice: "₹1199"
+
+    },
+    {
+        src: "assets/mens/product_14.png",
+        title: "Regular Fit Hoddie Men",
+        price: "₹599",
+        oldPrice: "₹999"
+
+    },
+    {
+        src: "assets/mens/product_15.png",
+        title: "Regular Fit Hoddie Men",
+        price: "₹9999",
+        oldPrice: "15900"
+
+    },
+    {
+        src: "assets/mens/product_16.png",
+        title: "Regular Fit Hoddie Men",
+        price: "₹899",
+        oldPrice: "₹1099"
+
+    }
+    ,
+    {
+        src: "assets/mens/product_17.png",
+        title: "Regular Fit Hoddie Men",
+        price: "₹777",
+        oldPrice: "15900 "
+
+    }
+    ,
+    {
+        src: "assets/mens/product_19.png",
+        title: "Regular Fit Hoddie Men",
+        price: "₹7999",
+        oldPrice: "15900 "
+
+    }
+    ,
+    {
+        src: "assets/mens/product_20.png",
+        title: "Regular Fit Hoddie Men",
+        price: "₹7999",
+        oldPrice: "15900 "
+
+    }
+    ,
+    {
+        src: "assets/mens/product_21.png",
+        title: "Regular Fit Hoddie Men",
+        price: "₹7999",
+        oldPrice: "15900 "
+
+    }
+    ,
+    {
+        src: "assets/mens/product_22.png",
+        title: "Regular Fit Hoddie Men",
+        price: "₹7999",
+        oldPrice: "15900 "
+
+    }
+    ,
+    {
+        src: "assets/mens/product_23.png",
+        title: "Regular Fit Hoddie Men",
+        price: "₹7999",
+        oldPrice: "15900 "
+
+    }
+    ,
+    {
+        src: "assets/mens/product_14.png",
+        title: "Regular Fit Hoddie Men",
+        price: "₹599",
+        oldPrice: "₹999"
+
+    },
+    {
+        src: "assets/mens/product_15.png",
+        title: "Regular Fit Hoddie Men",
+        price: "₹9999",
+        oldPrice: "15900"
+
+    },
+    {
+        src: "assets/mens/product_16.png",
+        title: "Regular Fit Hoddie Men",
+        price: "₹899",
+        oldPrice: "₹1099"
+
+    }
+    ,
+    {
+        src: "assets/mens/product_17.png",
+        title: "Regular Fit Hoddie Men",
+        price: "₹777",
+        oldPrice: "15900 "
+
+    }
+    ,
+    {
+        src: "assets/mens/product_19.png",
+        title: "Regular Fit Hoddie Men",
+        price: "₹7999",
+        oldPrice: "15900 "
+
+    }
+    ,
+    {
+        src: "assets/mens/product_20.png",
+        title: "Regular Fit Hoddie Men",
+        price: "₹7999",
+        oldPrice: "15900 "
+
+    }
+    ,
+    {
+        src: "assets/mens/product_21.png",
+        title: "Regular Fit Hoddie Men",
+        price: "₹7999",
+        oldPrice: "15900 "
+
+    }
+    ,
+    {
+        src: "assets/mens/product_22.png",
+        title: "Regular Fit Hoddie Men",
+        price: "₹7999",
+        oldPrice: "15900 "
+
+    }
+    ,
+    {
+        src: "assets/mens/product_23.png",
+        title: "Regular Fit Hoddie Men",
+        price: "₹7999",
+        oldPrice: "15900 "
+
+    }
 ]
