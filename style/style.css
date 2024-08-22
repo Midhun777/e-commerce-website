@@ -5,7 +5,7 @@
     --btn-bg: #0f2a71;
 }
 
-*{
+* {
     /* outline: red solid 1px; */
 }
 
@@ -257,25 +257,40 @@ i {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 65px;
+    height: 150px;
+    /* outline: red solid 1px; */
 }
 
-.sec-nav-parent {
-    align-items: center;
-    width: 70%;
-    height: 100px;
-    outline: red solid 1px;
+.nav-items-parent {
     display: flex;
-
+    align-items: center;
+    justify-content:space-evenly;
+    width: 70%;
+    height: 100%;
+    background-color: #fbc12d;
+    border-radius:16px ;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    /* box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset; */
+    /* box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px; */
+    /* box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px; */
 }
 
-.sec-nav {
-    width: 26%;
-    height: 30px;
+.nav-items {
+    cursor: pointer;
+    width: 150px;
+    height: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
-     outline: red solid 1px;
-
+    /* outline: red solid 1px; */
+    background-color: #4f48ed;
+    border-radius:6px ;
+    color:white;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    /* box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset; */
+    /* box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px; */
+    /* box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px; */
 }
 
 .men-parent,

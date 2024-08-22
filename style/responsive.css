@@ -121,5 +121,13 @@
     .men-card{
         width:;
     }
+
+    .wave{
+        max-width: 100vw;
+    }
+
+    footer,.wave{
+        display: none;
+    }
 }
 
