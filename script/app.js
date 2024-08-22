@@ -101,6 +101,10 @@ function changeImage() {
 
 // setInterval(changeImage, 2000);
 
+
+
+//<------NAV SECTION------>
+
 const navSec = document.getElementById("nav-sec");
 
 const navParent = document.createElement("div");
@@ -113,14 +117,12 @@ const navItemsCont = document.getElementById("nav-items-parent");
 navItemsArr.forEach(navItems => {
   const navCard = `<div class="nav-items" id="nav-items">${navItems.title}</div>`;
   navItemsCont.innerHTML += navCard;
-  console.log(navItems);
 });
 
 const navItemsElem = document.getElementById("nav-items");
-
 navItemsCont.appendChild(navItemsElem);
 
-console.log(navItems)
+//<------!------>
 
 const mensCollectionContainer = document.getElementById('mens-collection-container');
 
