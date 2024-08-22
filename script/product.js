@@ -1,5 +1,32 @@
 const links = ['Home', 'Contact', 'Blog', 'About'];
 
+const navItemsArr = [
+    {
+        title : "Men",
+        href: "#"
+    }
+    ,
+    {
+        title : "Women",
+        href: "#"
+    }
+    ,
+    {
+        title : "Kids",
+        href: "#"
+    }
+    ,
+    {
+        title : "Shoes",
+        href: "#"
+    }
+    ,
+    {
+        title : "Phones",
+        href: "#"
+    }
+]
+
 const categoryItems = [
     {
         src: "assets/icons/shirt.png",

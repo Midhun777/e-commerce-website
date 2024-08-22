@@ -1,40 +1,9 @@
-// const nav = document.createElement('nav');
 
-// const divLogo = document.createElement('div');
-// const aLogo = document.createElement('a');
-// aLogo.href = '#';
-// aLogo.className = 'logo';
-// aLogo.textContent = 'emagine';
-// divLogo.appendChild(aLogo);
 
-// const navRight = document.createElement('div');
-// navRight.className = 'nav-right';
-
-// const ul = document.createElement('ul');
-
-// links.forEach(linkText => {
-//     const a = document.createElement('a');
-//     a.href = '#';
-
-//     const li = document.createElement('li');
-//     li.className = 'list-items';
-//     li.textContent = linkText;
-
-//     a.appendChild(li);
-//     ul.appendChild(a);
-// });
-
-// navRight.appendChild(ul);
-
-// nav.appendChild(divLogo);
-// nav.appendChild(navRight);
-
-// document.body.appendChild(nav);
-
-window.addEventListener("load", function() {
-  setTimeout(function() {
-      document.getElementById("loading-screen").style.display = "none";
-      // document.getElementById("content").style.display = "block";
+window.addEventListener("load", function () {
+  setTimeout(function () {
+    document.getElementById("loading-screen").style.display = "none";
+    // document.getElementById("content").style.display = "block";
   }, 200);
 });
 
@@ -58,7 +27,7 @@ const newContent = `
 heroDiv.innerHTML = newContent;
 
 categoryItems.forEach(categoryObj => {
-  
+
   const parentCategoryDiv = document.getElementById("parent-category");
 
   const categoryDiv = document.createElement("div");
@@ -131,6 +100,27 @@ function changeImage() {
 }
 
 // setInterval(changeImage, 2000);
+
+const navSec = document.getElementById("nav-sec");
+
+const navParent = document.createElement("div");
+navParent.id = "nav-items-parent";
+navParent.classList.add("nav-items-parent");
+navSec.appendChild(navParent);
+
+const navItemsCont = document.getElementById("nav-items-parent");
+
+navItemsArr.forEach(navItems => {
+  const navCard = `<div class="nav-items" id="nav-items">${navItems.title}</div>`;
+  navItemsCont.innerHTML += navCard;
+  console.log(navItems);
+});
+
+const navItemsElem = document.getElementById("nav-items");
+
+navItemsCont.appendChild(navItemsElem);
+
+console.log(navItems)
 
 const mensCollectionContainer = document.getElementById('mens-collection-container');
 
