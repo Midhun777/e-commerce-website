@@ -57,7 +57,7 @@ categoryItems.forEach(categoryObj => {
   categoryTextCommon.href = `${categoryObj.href}`;
   // categoryTextCommon.onclick=`${categoryObj.onclick}`;
   categoryTextCommon.onclick = function () {
-    if (categoryObj.onclick == true) {
+    if (categoryObj.navSate == true) {
       demo();
     } else {
       categoryTextCommon.removeAttribute("href");
@@ -70,6 +70,7 @@ categoryItems.forEach(categoryObj => {
   console.log(categoryTextCommon);
 
 });
+
 
 const image1 = document.getElementById("image-1");
 const image2 = document.getElementById("image-2");
@@ -126,10 +127,17 @@ navSec.appendChild(navParent);
 const navItemsCont = document.getElementById("nav-items-parent");
 
 navItemsArr.forEach(navItems => {
-  const navCard = `<a href="${navItems.href}" onClick="${navItems.onclick}">
+  const navCard = `<a href="${navItems.href}" onClick="${navItems.onclick}" id="nav-sec-a">
         <div class="nav-items" id="nav-items">${navItems.title}</div>
      </a>
   `;
+  const navSecA = document.getElementById("nav-sec-a");
+  if (navItems.navSate == true) {
+    demo();
+  } else {
+    categoryTextCommon.removeAttribute("href");
+    popUp();
+  }
   navItemsCont.innerHTML += navCard;
 
 });

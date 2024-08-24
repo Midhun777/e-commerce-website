@@ -4,33 +4,36 @@ const navItemsArr = [
     {
         title: "Kids",
         href: "#",
-        onclick: "popUp()"
+        onclick: "popUp()",
+        navSate: true
     }
     ,
     {
         title: "Mens",
         href: "pages/mens/index.html",
-        onclick: "demo()"
-
+        onclick: "demo()",
+        navSate: true
     }
     ,
     {
         title: "Womens",
         href: "pages/womens/index.html",
-        onclick: "demo()"
-
+        onclick: "demo()",
+        navSate: true
     }
     ,
     {
         title: "Shoes",
         href: "#",
-        onclick: "popUp()"
-    }
+        onclick: "popUp()",
+        navSate: true
+   }
     ,
     {
         title: "Phones",
         href: "#",
-        onclick: "demo()"
+        onclick: "demo()",
+        navSate: true
     }
 ]
 
@@ -38,19 +41,19 @@ const categoryItems = [
     {
         src: "assets/icons/shirt.png",
         title: "Shirts",
-        href:"pages/mens/index.html",
+        href: "pages/mens/index.html",
         common: "show more",
         onclick: "demo()",
-        navSate : true
+        navSate: true
     }
     ,
     {
         src: "assets/icons/iphone.png",
         title: "Phones",
-        href:"#",
+        href: "#",
         common: "show more",
         onclick: "popUp()",
-        navSate : false
+        navSate: false
 
 
     }
@@ -58,10 +61,10 @@ const categoryItems = [
     {
         src: "assets/icons/sneakers.png",
         title: "Shoes",
-        href:"#",
+        href: "#",
         common: "show more",
         onclick: "popUp()",
-        navSate : false
+        navSate: false
 
 
     }
@@ -69,10 +72,10 @@ const categoryItems = [
     {
         src: "assets/icons/party.png",
         title: "Frocks",
-        href:"#",
+        href: "#",
         common: "show more",
         onclick: "popUp()",
-        navSate : false
+        navSate: false
     }
     ,
 ]
