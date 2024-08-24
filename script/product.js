@@ -2,28 +2,35 @@ const links = ['Home', 'Contact', 'Blog', 'About'];
 
 const navItemsArr = [
     {
-        title: "Men",
-        href: "#"
-    }
-    ,
-    {
-        title: "Women",
-        href: "#"
-    }
-    ,
-    {
         title: "Kids",
-        href: "#"
+        href: "#",
+        onclick: "popUp()"
+    }
+    ,
+    {
+        title: "Mens",
+        href: "pages/mens/index.html",
+        onclick: "demo()"
+
+    }
+    ,
+    {
+        title: "Womens",
+        href: "pages/womens/index.html",
+        onclick: "demo()"
+
     }
     ,
     {
         title: "Shoes",
-        href: "#"
+        href: "#",
+        onclick: "popUp()"
     }
     ,
     {
         title: "Phones",
-        href: "#"
+        href: "#",
+        onclick: "demo()"
     }
 ]
 
@@ -31,25 +38,41 @@ const categoryItems = [
     {
         src: "assets/icons/shirt.png",
         title: "Shirts",
-        common: "show more"
+        href:"pages/mens/index.html",
+        common: "show more",
+        onclick: "demo()",
+        navSate : true
     }
     ,
     {
         src: "assets/icons/iphone.png",
         title: "Phones",
-        common: "show more"
+        href:"#",
+        common: "show more",
+        onclick: "popUp()",
+        navSate : false
+
+
     }
     ,
     {
         src: "assets/icons/sneakers.png",
         title: "Shoes",
-        common: "show more"
+        href:"#",
+        common: "show more",
+        onclick: "popUp()",
+        navSate : false
+
+
     }
     ,
     {
         src: "assets/icons/party.png",
         title: "Frocks",
-        common: "show more"
+        href:"#",
+        common: "show more",
+        onclick: "popUp()",
+        navSate : false
     }
     ,
 ]
@@ -438,4 +461,177 @@ const mensPageCollection = [
         oldPrice: "15900 "
 
     }
+]
+
+const womensPageCollection = [
+    {
+        src: "assets/women/product_1.png",
+        title: "Regular Fit Women",
+        price: "₹899",
+        oldPrice: "₹1199"
+    }
+    ,
+
+    {
+        src: "assets/women/product_2.png",
+        title: "Regular Fit Women",
+        price: "₹899",
+        oldPrice: "₹1199"
+    }
+    ,
+    {
+        src: "assets/women/product_3.png",
+        title: "Regular Fit Women",
+        price: "₹899",
+        oldPrice: "₹1199"
+    }
+    ,
+    {
+        src: "assets/women/product_4.png",
+        title: "Regular Fit Women",
+        price: "₹899",
+        oldPrice: "₹1199"
+    }
+    ,
+    {
+        src: "assets/women/product_5.png",
+        title: "Regular Fit Women",
+        price: "₹899",
+        oldPrice: "₹1199"
+    }
+    ,
+    {
+        src: "assets/women/product_6.png",
+        title: "Regular Fit Women",
+        price: "₹899",
+        oldPrice: "₹1199"
+    }
+    ,
+    {
+        src: "assets/women/product_7.png",
+        title: "Regular Fit Women",
+        price: "₹899",
+        oldPrice: "₹1199"
+    }
+    ,
+    {
+        src: "assets/women/product_8.png",
+        title: "Regular Fit Women",
+        price: "₹899",
+        oldPrice: "₹1199"
+    }
+    ,
+    {
+        src: "assets/women/product_9.png",
+        title: "Regular Fit Women",
+        price: "₹899",
+        oldPrice: "₹1199"
+    }
+    ,
+    {
+        src: "assets/women/product_10.png",
+        title: "Regular Fit Women",
+        price: "₹899",
+        oldPrice: "₹1199"
+    }
+    ,
+    {
+        src: "assets/women/product_11.png",
+        title: "Regular Fit Women",
+        price: "₹899",
+        oldPrice: "₹1199"
+    }
+    ,
+    {
+        src: "assets/women/product_12.png",
+        title: "Regular Fit Women",
+        price: "₹899",
+        oldPrice: "₹1199"
+    }
+    ,
+    {
+        src: "assets/women/product_1.png",
+        title: "Regular Fit Women",
+        price: "₹899",
+        oldPrice: "₹1199"
+    }
+    ,
+
+    {
+        src: "assets/women/product_2.png",
+        title: "Regular Fit Women",
+        price: "₹899",
+        oldPrice: "₹1199"
+    }
+    ,
+    {
+        src: "assets/women/product_3.png",
+        title: "Regular Fit Women",
+        price: "₹899",
+        oldPrice: "₹1199"
+    }
+    ,
+    {
+        src: "assets/women/product_4.png",
+        title: "Regular Fit Women",
+        price: "₹899",
+        oldPrice: "₹1199"
+    }
+    ,
+    {
+        src: "assets/women/product_5.png",
+        title: "Regular Fit Women",
+        price: "₹899",
+        oldPrice: "₹1199"
+    }
+    ,
+    {
+        src: "assets/women/product_6.png",
+        title: "Regular Fit Women",
+        price: "₹899",
+        oldPrice: "₹1199"
+    }
+    ,
+    {
+        src: "assets/women/product_7.png",
+        title: "Regular Fit Women",
+        price: "₹899",
+        oldPrice: "₹1199"
+    }
+    ,
+    {
+        src: "assets/women/product_8.png",
+        title: "Regular Fit Women",
+        price: "₹899",
+        oldPrice: "₹1199"
+    }
+    ,
+    {
+        src: "assets/women/product_9.png",
+        title: "Regular Fit Women",
+        price: "₹899",
+        oldPrice: "₹1199"
+    }
+    ,
+    {
+        src: "assets/women/product_10.png",
+        title: "Regular Fit Women",
+        price: "₹899",
+        oldPrice: "₹1199"
+    }
+    ,
+    {
+        src: "assets/women/product_11.png",
+        title: "Regular Fit Women",
+        price: "₹899",
+        oldPrice: "₹1199"
+    }
+    ,
+    {
+        src: "assets/women/product_12.png",
+        title: "Regular Fit Women",
+        price: "₹899",
+        oldPrice: "₹1199"
+    }
+
 ]

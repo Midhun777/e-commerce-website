@@ -270,7 +270,7 @@ i {
     height: 100%;
     /* outline: red solid 1px; */
 
-    background-color: #fbc12d;
+    background-color:#ffdb60;
     border-radius:16px ;
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
     /* box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset; */
@@ -286,7 +286,7 @@ i {
     justify-content: center;
     align-items: center;
     /* outline: red solid 1px; */
-    background-color: #4f48ed;
+    background-color:#3474d5;
     border-radius:6px ;
     color:white;
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;

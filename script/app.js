@@ -1,8 +1,7 @@
 
-
 window.addEventListener("load", function () {
   setTimeout(function () {
-    document.getElementById("loading-screen").style.display = "none";
+    // document.getElementById("loading-screen").style.display = "none";
     // document.getElementById("content").style.display = "block";
   }, 200);
 });
@@ -55,8 +54,20 @@ categoryItems.forEach(categoryObj => {
   const categoryTextCommon = document.createElement("a");
   categoryTextCommon.classList.add("cate-right-span-2")
   categoryRightDiv.appendChild(categoryTextCommon);
-  categoryTextCommon.href = "#";
+  categoryTextCommon.href = `${categoryObj.href}`;
+  // categoryTextCommon.onclick=`${categoryObj.onclick}`;
+  categoryTextCommon.onclick = function () {
+    if (categoryObj.onclick == true) {
+      demo();
+    } else {
+      categoryTextCommon.removeAttribute("href");
+      popUp();
+    }
+  };
   categoryTextCommon.innerHTML = "show more";
+
+  console.log(parentCategoryDiv);
+  console.log(categoryTextCommon);
 
 });
 
@@ -115,10 +126,11 @@ navSec.appendChild(navParent);
 const navItemsCont = document.getElementById("nav-items-parent");
 
 navItemsArr.forEach(navItems => {
-  const navCard = `<div class="nav-items" id="nav-items">${navItems.title}</div>`;
+  const navCard = `<a href="${navItems.href}" onClick="${navItems.onclick}">
+        <div class="nav-items" id="nav-items">${navItems.title}</div>
+     </a>
+  `;
   navItemsCont.innerHTML += navCard;
-
-console.log(navItems)
 
 });
 
@@ -187,3 +199,11 @@ womensCollections.forEach(womenItem => {
   `;
   womenCollectionContainer.innerHTML += womenCardHtml;
 });
+
+function popUp() {
+  alert("Sorry Page Not Yet Ready!!!");
+}
+
+function demo(e) {
+  console.log(e);
+}
