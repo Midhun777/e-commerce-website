@@ -1,0 +1,234 @@
+:root {
+    --nav-bg: #ffdb60;
+    --body-bg: #fffdf0;
+    --text-color: #001740;
+    --btn-bg: #0f2a71;
+}
+
+* {
+    /* outline: 1px solid red; */
+
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    /* background-color: var(--body-bg); */
+    font-family: sarabun;
+    /* font-family: Arial, Helvetica, sans-serif; */
+
+}
+
+.main {
+    margin: 0px;
+    padding: 0px;
+    /* background-color: var(--body-bg); */
+    background-color: #dedede;
+    font-family: sarabun;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+nav {
+    height: 11vh;
+    background-color: var(--nav-bg);
+    width: 100%;
+    display: flex;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+
+a {
+    text-decoration: none;
+    color: var(--text-color);
+
+}
+
+nav .nav-left a {
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+.logo {
+    font-weight: 600;
+    color: var(--text-color);
+    font-family: "Playwrite DE Grund", cursive;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.nav-left {
+    width: 45%;
+    display: flex;
+    align-items: center;
+    margin-left: 25px;
+    font-size: 24px;
+}
+
+.nav-right {
+    width: 55%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+li {
+    margin: 0 50px;
+    margin-top: 6px;
+    font-weight: 600;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+li:hover {
+    text-decoration: underline;
+}
+
+i {
+    font-size: 20px;
+    color: var(--text-color);
+    cursor: pointer;
+}
+
+
+
+.cont {
+    width: 88%;
+    display: flex;
+    background-color: #ffffff;
+
+}
+
+.cont-left {
+    width: 40%;
+    height: 100%;
+}
+
+.cont-right {
+    width: 60%;
+    /* height: 100%; */
+    border-left: #bcb8b832 solid 2px;
+}
+
+.left-top {
+    margin-top: 15px;
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cont-right{
+    margin-top: 15px;
+
+}
+
+.img {
+    width: 80%;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+}
+
+.left-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.left-bottom button {
+    height: 60px;
+    width: 195px;
+    align-items: center;
+    background-clip: padding-box;
+    background-color: #fa6400;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: system-ui, -apple-system, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    justify-content: center;
+    line-height: 1.25;
+    margin: 0;
+    margin-top: 15px;
+    min-height: 3rem;
+    padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+    position: relative;
+    text-decoration: none;
+    transition: all 250ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: baseline;
+    /* width: auto; */
+}
+
+.btn:hover,
+.btn:focus {
+    background-color: #fb8332;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+}
+
+.btn:focus {
+    transform: translateY(-1px);
+}
+
+
+.btn:active {
+    background-color: #c85000;
+    box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
+    transform: translateY(0);
+}
+
+
+.back {
+    margin: 20px 0 0 20px;
+    /* width: 300px; */
+    background: none;
+    border: none;
+    border: 2.4px solid#001740;
+    border-radius: 2px;
+    color: #001740;
+    width: 250px;
+    height: 50px;
+}
+
+p {
+    margin: 0px;
+    margin-left: 40px;
+}
+
+.title {
+    margin-top: 40px;
+    font-size: 1.35em;
+}
+
+.special {
+    margin-top: 10px;
+    color: #26a541;
+}
+
+.price{
+    margin-top:5px;
+    font-size:1.2em;
+}
+
+.old{
+    font-size:0.85em;
+    color:#8b908f;
+    text-decoration: line-through;
+}
