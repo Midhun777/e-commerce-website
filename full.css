@@ -217,6 +217,11 @@ p {
     font-size: 1.35em;
 }
 
+.bought{
+    margin-top: 10px;
+    font-size:0.9em;
+
+}
 .special {
     margin-top: 10px;
     color: #26a541;
@@ -224,7 +229,7 @@ p {
 
 .price{
     margin-top:5px;
-    font-size:1.2em;
+    font-size:1.6em;
 }
 
 .old{
