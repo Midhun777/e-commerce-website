@@ -1,6 +1,6 @@
 function createCard(cont, data) {
-    cont.innerHTML = `
-        <div class="card">
+  cont.innerHTML = `
+        <div class="card" id="productCard">
             <div class="card-top">
                <img src="../../${data.src}" alt
                   id="card-img" class="card-img">
@@ -15,8 +15,5 @@ function createCard(cont, data) {
            </div>
       </div>
     `;
-}
 
-function displayCominSoon(){
-  
 }

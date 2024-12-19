@@ -1,4 +1,3 @@
-
 window.addEventListener("load", function () {
   setTimeout(function () {
     // document.getElementById("loading-screen").style.display = "none";
@@ -66,8 +65,8 @@ categoryItems.forEach(categoryObj => {
   };
   categoryTextCommon.innerHTML = "show more";
 
-  console.log(parentCategoryDiv);
-  console.log(categoryTextCommon);
+  // console.log(parentCategoryDiv);
+  // console.log(categoryTextCommon);
 
 });
 
@@ -95,7 +94,7 @@ function updateValues() {
   setTimeout(updateValues, 2000);
 }
 
-// updateValues();
+updateValues();
 image1.src = "assets/image-gallery/1.jpg";
 image2.src = "assets/image-gallery/2.jpg";
 
@@ -111,7 +110,7 @@ function changeImage() {
   }
 }
 
-// setInterval(changeImage, 2000);
+setInterval(changeImage, 2000);
 
 
 
@@ -151,7 +150,7 @@ const mensCollectionContainer = document.getElementById('mens-collection-contain
 
 mensCollection.forEach(product => {
   const cardHtml = `
-    <div class="men-card">
+    <div class="men-card" id="targetId">
       <div class="men-card-top">
         <img src="${product.src}" alt="${product.title}" class="men-img">
       </div>
@@ -212,6 +211,7 @@ function popUp() {
   alert("Sorry Page Not Yet Ready!!!");
 }
 
-function demo(e) {
+document.getElementById("targetId").addEventListener("click",demo) 
+ function demo(e) {
   console.log(e);
 }

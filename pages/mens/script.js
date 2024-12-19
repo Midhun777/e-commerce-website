@@ -14,3 +14,4 @@ mensPageCollection.forEach(menItem => {
 
   mensPage.appendChild(cont);
 });
+
